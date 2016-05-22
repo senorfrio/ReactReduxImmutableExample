@@ -1,6 +1,6 @@
 'use strict';
 
-import {List} from 'immutable';
+import {List, Map} from 'immutable';
 
 export function setEntries(state, entries) {
   return state.set('entries', new List(entries));
